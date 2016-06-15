@@ -1,0 +1,120 @@
+/* Stylesheet for DESIGNCO website */
+
+* {
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+}
+body {
+  font-family: helvetica;
+}
+header {
+  background-color: rgb(245, 245, 245);
+  height: 85px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  background-color: rgb(245, 245, 245);
+  width: 75vw;
+  margin: auto;
+  border-top: 4px solid rgb(221, 52, 22);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -37.5vw;
+}
+nav div {
+  display: inline-block;
+  float: left;
+}
+#logo {
+  margin-left: 22px;
+  margin-top: 32px;
+}
+ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 17px;
+  margin-top: 13px;
+  /*font-weight: bold;*/
+  font-size: 18px;
+}
+li a {
+  text-decoration:none;
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:blue;
+}
+a:active, .active a {
+  color:red;
+}
+#search {
+  float: right;
+  margin-right: 33px;
+  margin-top: 28px;
+}
+main {
+  margin-top: 135px;
+}
+main div {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+main div p {
+  margin-top: -23px;
+}
+footer {
+  width: 75vw;
+  /*margin:auto;*/
+  margin: 50px auto;
+  /*display: inline-block;*/
+}
+.hnew {
+  color: red;
+  font-size: 14px;
+  /*float: left;*/
+  display: inline-block;
+  width: 24.5%;
+}
+.hlay {
+  font-size: 14px;
+  /*float: left;*/
+  display: inline-block;
+  width: 74.5%;
+  /*padding-left: 43px;*/
+}
+.new {
+  width: 20%;
+  float: left;
+}
+.lorem {
+  width: 74.5%;
+  float: right;
+  column-count: 3;
+  margin-top: -22px;
+  margin-bottom: 50px;
+}
+.new p {
+  margin-top: -18px;
+  font-size: 12px;
+}
+.new a {
+  font-size: 12px;
+}
+.lorem p {
+  font-size: 12px;
+  margin: 0;
+}
+.photo {
+  height: 447px;
+}

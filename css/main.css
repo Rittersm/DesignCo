@@ -110,8 +110,10 @@ footer {
   margin: 0;
 }
 .photo {
-  width: 75vw;
-  margin: 50px auto;
+  width: 60%;
+  margin: auto;
+  float: left;
+  display: inline-block;
   display: flex;
   flex-direction:column;
   flex-flow:wrap;
@@ -121,4 +123,15 @@ footer {
 .photo img {
   margin: 5px;
   margin-right: 15px;
+}
+.photo2 {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.photo2 img {
+  margin: 5px;
 }

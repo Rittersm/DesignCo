@@ -109,6 +109,9 @@ footer {
   font-size: 12px;
   margin: 0;
 }
+.grid {
+  margin:20px;
+}
 .photo {
   width: 60%;
   margin: auto;
@@ -130,7 +133,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
 }
 .photo2 img {
   margin: 5px;
